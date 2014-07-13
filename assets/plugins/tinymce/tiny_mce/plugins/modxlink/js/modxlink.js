@@ -42,6 +42,7 @@ function init() {
     var html;
 
     document.getElementById('hrefbrowsercontainer').innerHTML = getBrowserHTML('hrefbrowser','href','file','modxlink');
+    document.getElementById('imgbrowsercontainer').innerHTML = getBrowserHTML('hrefbrowser','href','image','modxlink');
     document.getElementById('popupurlbrowsercontainer').innerHTML = getBrowserHTML('popupurlbrowser','popupurl','file','modxlink');
     document.getElementById('anchorlistcontainer').innerHTML = getAnchorListHTML('anchorlist','href');
     document.getElementById('targetlistcontainer').innerHTML = getTargetListHTML('targetlist','target');

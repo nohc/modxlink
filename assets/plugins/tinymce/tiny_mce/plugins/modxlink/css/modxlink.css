@@ -32,3 +32,6 @@
     display:block;
     clear:none;
 }
+#imgbrowsercontainer #hrefbrowser {
+    background-position: -380px 0;
+}
